@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('div').on('click', function(){
+    $('.perfect-pair-dresses-display>div, .now-neutrals-dresses-display>div, .gold-rush-dresses-display>div').on('click', function(){
 		$(this).toggleClass('changed');
 	});
 
