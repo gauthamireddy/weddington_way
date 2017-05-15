@@ -20,7 +20,7 @@ a {
     width: 100%;
 }
 .container-fluid {
-    width: 1136px;
+    width: 75%;
     margin: 0 auto;
 }
 ul li {
@@ -87,21 +87,21 @@ ul li {
 .main_bg {
     background-image: url("../images/main.png");
     margin-top: 10px;
-    width: 1000px;
+    width: 88%;
     height: 360px;
     font-family: "Raleway", sans-serif;
 }
 .main_bg.changedonce {
     background-image: url("../images/main-1.png");
     margin-top: 10px;
-    width: 1000px;
+    width: 88%;
     height: 360px;
     font-family: "Raleway", sans-serif;
 }
 .main_bg.changedtwice {
     background-image: url("../images/main-2.png");
     margin-top: 10px;
-    width: 1000px;
+    width: 88%;
     height: 360px;
     font-family: "Raleway", sans-serif;
 }
@@ -182,6 +182,7 @@ ul li {
     font-family: "Raleway";
     color: rgb(35, 31, 32);
     text-align: center;
+    width:88%;
 }
 .featured-looks > ul {
     margin-top: 100px;
@@ -896,12 +897,14 @@ ul li {
         background-size: 400px 450px;
         background-repeat: no-repeat;
         height: 500px;
+        width: 500px;
     }
     .main_bg.changedtwice {
         margin-top: 0;
         background-size: 400px 450px;
         background-image: url("../images/mobile-main-bg-one.png");
         height: 500px;
+        width:500px;
     }
     .main-bg-header-text {
         padding-top: 100px;
